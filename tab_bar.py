@@ -28,9 +28,9 @@ REFRESH_TIME = 15
 MAX_LENGTH_PATH = 3
 
 # Nerd Font icons for each widget
-folder_icon = " "
+folder_icon = " "
 time_icon = "󰥔 "
-session_icon = " "
+session_icon = " "
 
 # ---------------------------------------------------------------------------
 # Cell — a single drawable block in the tab bar
@@ -54,8 +54,8 @@ class Cell:
         bg: str = BG,
         fg: str = FG,
         color: int = COLOR_1,
-        separator: str = "",
-        border: tuple[str, str] = ("",""),
+        separator: str = "",
+        border: tuple[str, str] = ("",""),
     ) -> None:
 
         self.tab: TabBarData = tab
